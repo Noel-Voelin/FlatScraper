@@ -6,7 +6,7 @@ import telegram
 from datetime import datetime
 from RequestHandler import RequestHandler
 
-bot = telegram.Bot(token="1105751190:AAERD6ZR-Smboc-DNRQZ2nY-NXiOGUSoh1w")
+bot = telegram.Bot(token="<token goes here>")
 request_handler = RequestHandler().requests_retry_session()
 
 while True:
